@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing :border-box;
+}
+body {
+    /* overflow-x: hidden; */
+  }
+.container{
+    width: 100vw;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: grey;
+    height: 3rem; 
+}
+li{
+    list-style-type: none;
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
+}
+
+.bg{
+    width: 100vw;
+}
+.logo{
+    width: 7rem;
+}
